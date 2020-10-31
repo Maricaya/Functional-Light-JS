@@ -195,7 +195,7 @@ function stringMap(mapperFn,str) {
 }
 
 stringMap( uppercaseLetter, "Hello World!" );
-// 你好，世界!
+// HELLO WORLD!
 ```
 
 `stringMap(..)` 允许字符串作为函子。你可以定义一个映射函数用于任何数据类型。只要实用函数满足这些规则，该数据结构就是一个函子。
